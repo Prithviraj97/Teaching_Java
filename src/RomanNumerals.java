@@ -23,8 +23,6 @@ public class RomanNumerals
 		if (number > 0 && number < 1000) 
 		{
 			
-		
-		
 			//isolating the units place
 			int units_Ones_Digit = number % 10;
 			
