@@ -9,8 +9,8 @@ public class SearchSortApp {
 
     // Main function
     public static void main(String[] args) {
-        String[] options = {"Search", "Sort"};
-        String choice = (String) JOptionPane.showInputDialog(null, "Choose an option", "Search/Sort",
+        String[] options = {"Searching", "Sorting"};
+        String choice = (String) JOptionPane.showInputDialog(null, "What would you like to do?", "Searching & Sorting Operations",
                 JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 
         if ("Search".equals(choice)) {
