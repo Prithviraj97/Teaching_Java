@@ -11,11 +11,11 @@ public class SearchSortApp {
     public static void main(String[] args) {
         String[] options = {"Searching", "Sorting"};
         String choice = (String) JOptionPane.showInputDialog(null, "What would you like to do?", "Searching & Sorting Operations",
-                JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+                JOptionPane.QUESTION_MESSAGE, null,options, options[0]);
 
-        if ("Search".equals(choice)) {
+        if ("Searching".equals(choice)) {
             performSearch();
-        } else if ("Sort".equals(choice)) {
+        } else if ("Sorting".equals(choice)) {
             performSort();
         }
     }
@@ -137,6 +137,7 @@ public class SearchSortApp {
                     arr[j + 1] = temp;
                 }
             }
+            
         }
     }
 
