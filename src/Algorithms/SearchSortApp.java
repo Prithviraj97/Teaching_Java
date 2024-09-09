@@ -58,7 +58,7 @@ public class SearchSortApp {
 
                 // Display result
                 if (resultIndex != -1) {
-                    JOptionPane.showMessageDialog(null, "Number found at index: " + resultIndex + "\nTime taken: " + duration + " ns");
+                    JOptionPane.showMessageDialog(null, "Target " + target + " found at index: " + resultIndex + "\nTime taken: " + duration + " ns");
                 } else {
                     JOptionPane.showMessageDialog(null, "Number not found.");
                 }
