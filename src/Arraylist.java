@@ -13,7 +13,7 @@ public class Arraylist {
         //Adding Elements
         fruits.add("orange");
         fruits.add("Apple");
-        fruits.add("Berry");
+        fruits.add("Berry");   
 
         /**
          * add(E,e): adds an elements towards the end of the list.
