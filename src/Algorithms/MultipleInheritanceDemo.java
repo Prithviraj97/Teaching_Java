@@ -25,8 +25,8 @@ interface Loggable {
 
 // Abstract class for general vehicle properties
 abstract class Vehicle {
-    private String name;
-    private int maxSpeed;
+    private final String name;
+    private final int maxSpeed;
 
     public Vehicle(String name, int maxSpeed) {
         this.name = name;
