@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MultipleInheritanceDemo",
+            "request": "launch",
+            "mainClass": "Algorithms.MultipleInheritanceDemo",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "SearchSortApp",
+            "request": "launch",
+            "mainClass": "Algorithms.SearchSortApp",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "Algorithms.bubblesort",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "merge_sort",
+            "request": "launch",
+            "mainClass": "Algorithms.merge_sort",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "FileIOPractice",
+            "request": "launch",
+            "mainClass": "CS281.FileIOPractice",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "HELLO",
+            "request": "launch",
+            "mainClass": "CS281.HELLO",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Scanner_Random",
+            "request": "launch",
+            "mainClass": "CS281.Scanner_Random",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "WhileDemo",
+            "request": "launch",
+            "mainClass": "CS281.WhileDemo",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "forloop",
+            "request": "launch",
+            "mainClass": "CS281.forloop",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Distance",
+            "request": "launch",
+            "mainClass": "Distance",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "IncidentData",
+            "request": "launch",
+            "mainClass": "IncidentData",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "NumberToRoman",
+            "request": "launch",
+            "mainClass": "NumberToRoman",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Quadratic",
+            "request": "launch",
+            "mainClass": "Quadratic",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "RandomTest",
+            "request": "launch",
+            "mainClass": "RandomTest",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "RomanNumerals",
+            "request": "launch",
+            "mainClass": "RomanNumerals",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "TaskManager",
+            "request": "launch",
+            "mainClass": "TaskManager",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "condition",
+            "request": "launch",
+            "mainClass": "condition",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "graphics",
+            "request": "launch",
+            "mainClass": "graphics",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "math",
+            "request": "launch",
+            "mainClass": "math",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "simpleAnimation",
+            "request": "launch",
+            "mainClass": "simpleAnimation",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "simplescanner",
+            "request": "launch",
+            "mainClass": "simplescanner",
+            "projectName": "Java_Learning_3f520e75"
+        }
+    ]
+}
