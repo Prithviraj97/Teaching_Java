@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Locker",
+            "request": "launch",
+            "mainClass": "CS282.Locker",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
