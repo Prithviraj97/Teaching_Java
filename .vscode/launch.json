@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "mutlithread",
             "request": "launch",
             "mainClass": "mutlithread",
@@ -17,6 +18,19 @@
             "request": "launch",
             "mainClass": "thread",
             "projectName": "Teaching_Java_cb8ae357"
+=======
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "CS282.Main",
+            "projectName": "Java_Learning_3f520e75"
+        },
+        {
+            "type": "java",
+            "name": "Locker",
+            "request": "launch",
+            "mainClass": "CS282.Locker",
+            "projectName": "Java_Learning_3f520e75"
+>>>>>>> 00543d2c2c72916d22438ccb19e6d583ab1d6645
         },
         {
             "type": "java",

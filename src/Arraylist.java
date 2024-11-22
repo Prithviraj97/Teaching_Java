@@ -31,7 +31,7 @@ public class Arraylist {
          //Removing Elements: `remove(int index) - remove an element at specified location
          //`remove(Object o)` - removes the first occurence of specified element.
          fruits.remove(0);
-         fruits.remove("Berry");
+         fruits.remove("Berry");  
 
          //Checking the Size - `Size()` returns number of elements in ArrayList.
          int size = fruits.size();
