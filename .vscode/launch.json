@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mutlithread",
+            "request": "launch",
+            "mainClass": "mutlithread",
+            "projectName": "Teaching_Java_cb8ae357"
+        },
+        {
+            "type": "java",
+            "name": "thread",
+            "request": "launch",
+            "mainClass": "thread",
+            "projectName": "Teaching_Java_cb8ae357"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
