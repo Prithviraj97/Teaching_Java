@@ -1,16 +1,33 @@
 package CS282;
-import java.util.HashMap;
 
 public class Main {
-  public static void main(String[] args) {
-    // Create a HashMap object called capitalCities
-    HashMap<String, String> capitalCities = new HashMap<String, String>();
+    public static void main(String[] args) {
+        Person person = new Person("John", 20);
+        Person person2 = new Person("Jane", 25);
+        person.printInfo();
+        person2.printInfo();
 
-    // Add keys and values (Country, City)
-    capitalCities.put("England", "London");
-    capitalCities.put("Germany", "Berlin");
-    capitalCities.put("Norway", "Oslo");
-    capitalCities.put("USA", "Washington DC");
-    System.out.println(capitalCities);
-  }
+        person.growOlder();
+        person2.growOlder();
+
+        person.printInfo();
+        person2.printInfo();
+    }
+    
+}
+
+class Person{
+    String name;
+    int age;
+    public Person(String name, int age){
+        this.name = name;
+        this.age = 0;
+    }
+    public void printInfo(){
+        System.out.println("Name: " + name + " Age: " + age);
+    }
+
+    public void growOlder(){
+        age++;
+    }
 }
