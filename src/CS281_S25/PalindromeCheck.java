@@ -1,4 +1,4 @@
-
+package CS281_S25;
 public class PalindromeCheck {
 
 	public static void main(String[] args) {
