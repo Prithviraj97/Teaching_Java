@@ -3,7 +3,6 @@ package CS281_S25;
 public class SumofDigits {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num = 384;
 		int OriginalNum = num;
 		int sum = 0;

@@ -2,7 +2,6 @@ package CS281_S25;
 public class MultiplicationTable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num = 10;
 		
 		//generate multiplication matrix
