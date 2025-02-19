@@ -12,7 +12,6 @@ public class Hierarchical {
 		bk.start();
 
 	}
-
 }
 
 class Vehicle{
