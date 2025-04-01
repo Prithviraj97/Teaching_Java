@@ -1,4 +1,4 @@
-
+package CS281_S25;
 public class MergeSort {
 	public static void mergeSort(int[] arr) {
 		if(arr == null || arr.length <=1) {
