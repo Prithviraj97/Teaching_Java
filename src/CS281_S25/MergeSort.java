@@ -38,14 +38,52 @@ public class MergeSort {
 			rightArray[j] = arr[mid+1+j];
 		}
 
-		
-		
-		
+		//merge the temp arrays
+		int i=0, j=0;
+		int k=left;
+		while(i<n1 && j<n2) {
+			if(leftArray[i] <= rightArray[j]) {
+				arr[k] = leftArray[i];
+				i++;
+			} else {
+				arr[k] = rightArray[j];
+				j++;
+			}
+			k++;
+		}
+
+		//copy remaining elements of leftArray[] if any
+		while(i<n1) {
+			arr[k] = leftArray[i];
+			i++;
+			k++;
+		}
+
+		//copy remaining elements of rightArray[] if any
+		while(j<n2) {
+			arr[k] = rightArray[j];
+			j++;
+			k++;
+		}
+
+	}
+
+	public static void printArray(int[] arr) {
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+		System.out.println();
 	}
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// initialize an array and use merge sort algo for sorting
+		int[] arr = {12, 11, 13, 5, 6, 7};
+		System.out.println("Given array is: ");
+		printArray(arr);
+		mergeSort(arr);
+		System.out.println("Sorted array is: ");
+		printArray(arr);
 
 	}
 
