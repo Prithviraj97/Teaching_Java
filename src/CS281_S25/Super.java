@@ -1,5 +1,11 @@
 package CS281_S25;
 
+/*
+ * Think of super as a way to refer to your parent or say "my parent's" in everyday language.
+ * It refers to the parent class (superclass) of the current class
+ * It lets you access parent class methods and variables
+ * It allows you to call parent class constructors
+ */
 public class Super {
     protected String type;
     
