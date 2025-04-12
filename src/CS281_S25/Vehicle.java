@@ -1,3 +1,4 @@
+package CS281_S25;
 public class Vehicle {
 	protected String brand;
 	protected int year;
