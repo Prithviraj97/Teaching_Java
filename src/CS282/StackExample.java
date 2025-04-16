@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Stack<T> {
-    private List<T> items;
+    final private List<T> items;
 
     public Stack() {
         items = new ArrayList<>();
