@@ -1,5 +1,5 @@
 package CS282;
-//this is generic implementation of Linked List.
+//this is generics implementation of Linked List.
 class LinkedList<T> {
     private Node<T> head;
     private Node<T> tail;
