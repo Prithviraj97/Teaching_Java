@@ -46,4 +46,14 @@ public class QueueExample<T> {
     public int size() {
         return size;
     }
+
+    // Method to check if the queue is empty
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    // Method to check if the queue is full
+    public boolean isFull() {
+        return size == capacity;
+    }
 }
