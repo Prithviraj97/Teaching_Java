@@ -56,4 +56,20 @@ public class QueueExample<T> {
     public boolean isFull() {
         return size == capacity;
     }
+
+    // Main method to test the queue implementation
+    public static void main(String[] args) {
+        QueueExample<Integer> intQueue = new QueueExample<>(5);
+        intQueue.enqueue(1);
+        intQueue.enqueue(2);
+        intQueue.enqueue(3);
+        intQueue.enqueue(4);
+        intQueue.enqueue(5);
+        intQueue.enqueue(6); // This should show queue is full
+
+        System.out.println("Dequeued: " + intQueue.dequeue());
+        System.out.println("Dequeued: " + intQueue.dequeue());
+
+        System.out.println("Current size of queue: " + intQueue.size());
+    }
 }
