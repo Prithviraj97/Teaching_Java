@@ -1,3 +1,5 @@
+package CS282;
+
 // Abstract class for payments
 abstract class Payment {
     double amount;
