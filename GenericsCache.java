@@ -40,12 +40,12 @@ class SmartCache<K, V> {
     
     public void put(K key, V value) {
         cache.put(key, new CacheEntry<>(value, defaultTTL));
-        System.out.println("✓ Cached: " + key);
+        System.out.println("Cached: " + key);
     }
     
     public void put(K key, V value, int customTTL) {
         cache.put(key, new CacheEntry<>(value, customTTL));
-        System.out.println("✓ Cached: " + key + " (TTL: " + customTTL + "s)");
+        System.out.println("Cached: " + key + " (TTL: " + customTTL + "s)");
     }
     
     public V get(K key) {
@@ -53,19 +53,19 @@ class SmartCache<K, V> {
         
         if (entry == null) {
             missCount++;
-            System.out.println("✗ Cache MISS: " + key);
+            System.out.println("Cache MISS: " + key);
             return null;
         }
         
         if (entry.isExpired()) {
             cache.remove(key);
             missCount++;
-            System.out.println("✗ Cache EXPIRED: " + key);
+            System.out.println("Cache EXPIRED: " + key);
             return null;
         }
         
         hitCount++;
-        System.out.println("✓ Cache HIT: " + key);
+        System.out.println(" Cache HIT: " + key);
         return entry.getValue();
     }
     
